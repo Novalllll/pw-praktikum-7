@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@1.19.0/dist/full.css" rel="stylesheet" type="text/css" />
+
+  
+
+  <link rel="shortcut icon" href="checkbox.png" type="image/x-icon">
+  <title>Praktikum Web 7</title>
+</head>
+
+<body>
+  <div class="flex justify-center h-screen items-center content-center">
+    <div class='w-10/12 justify-center rounded-lg overflow-hidden mx-auto flex flex-col'>
+      <div class="flex flex-col justify-center items-center mx-auto max-w-md mb-10">
+        <img src="peta.jpg" alt="">
+      </div>
+      <div class="flex justify-center items-center mx-auto mb-5 p-3">
+     
+        <select class="select select-bordered w-full max-w-xs mr-5" id="select_provinsi">
+          <option disabled="disabled" selected="selected">Provinsi</option>
+          <option>Jawa Barat</option>
+          <option>Kalimantan Selatan</option>
+          <option>Kalimantan Barat</option>
+          <option>Kalimantan Utara</option>
+        </select>
+
+      
+        <select class="select select-bordered w-full max-w-xs" disabled="disabled" id="select_kota">
+          <option disabled="disabled" selected="selected">Kota</option>
+        </select>
+      </div>
+
+      <div class="flex justify-center items-center mx-auto mb-5 p-3">
+        <p class="font-medium" id="result">Silahkan Pilih Provinsi</p>
+      </div>
+
+      <input type="checkbox" class="toggle mx-auto" id="toggle">
+    </div>
+  </div>
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
